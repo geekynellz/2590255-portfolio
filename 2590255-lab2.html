@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        #main-header {
+            background-color: beige;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1{
+            font-size: 32px;
+        }
+         h2{
+            color: black;
+         }
+
+        nav ul{
+            display: flex;
+            list-style: none;
+
+         }
+
+         nav li{
+            padding: 15px;
+         }
+        .card {
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 15px 0 ;
+         }
+         
+        nav a {
+            color: black;
+         }
+
+         footer{
+            background-color: beige;
+         }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Neliswa Mathonsi</h1>
+        <p>Student ID: 2590255</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card" id="about">
+            <h2>About Me</h2>
+            <p>Hii! I am a final year CS student at Wits. I love running, swimming and cooking. If I was not doing ComSci I'd probably be in culinary school. By the end of this course I would like to see whether software design/engineering could be one of my future endavours as a career and I'd like to get an A for it obviously. Data Scientist/Analyst vs Software Engineering. Which one will it be? Stick around and find out.</p>
+        </section>
+
+        <article class="card" id="projects">
+            <h2>Latest Project</h2>
+            <p>I'm currently working on a group project for my church's library system. This system aims to make the process of taking out and returning books seamless for members. It will issue reminders to the members' specific email addresses when their reurn dates are approaching. It will also include which books are currently available to limit the amount of people at the library since it is quite small.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Neliswa Mathonsi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
